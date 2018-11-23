@@ -1,0 +1,18 @@
+﻿  ProcBuffers.cpp
+c1xx : warning C4005: '_OPENMP': 매크로 재정의
+  c1xx: note: 명령줄 인수: '_OPENMP'의 이전 정의를 참조하십시오.
+ProcBuffers.cpp(1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+  ProcBuffers.cpp(1): note: 명령줄 인수: '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
+f:\projects\ai\code\ai_project_realtime_output\ai_project\asiolib.h(4): warning C4005: 'WIN32': 매크로 재정의
+  f:\projects\ai\code\ai_project_realtime_output\ai_project\asiolib.h(4): note: 명령줄 인수: 'WIN32'의 이전 정의를 참조하십시오.
+f:\projects\ai\code\ai_project_realtime_output\ai_project\asiolib.h(6): warning C4005: '_CONSOLE': 매크로 재정의
+  f:\projects\ai\code\ai_project_realtime_output\ai_project\asiolib.h(6): note: 명령줄 인수: '_CONSOLE'의 이전 정의를 참조하십시오.
+ProcBuffers.cpp(65): warning C4101: 'Selected' :참조되지 않은 지역 변수입니다.
+ProcBuffers.cpp(64): warning C4101: 'NumDevice' :참조되지 않은 지역 변수입니다.
+  코드를 생성하고 있습니다.
+  175 of 1415 functions (12.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    60 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  AI_project.vcxproj -> F:\Projects\AI\Code\AI_project_realtime_output\x64\Release\AI_project.exe
+  AI_project.vcxproj -> F:\Projects\AI\Code\AI_project_realtime_output\x64\Release\AI_project.pdb (Full PDB)

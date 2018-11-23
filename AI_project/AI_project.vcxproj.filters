@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\FUNCTION">
+      <UniqueIdentifier>{48435b29-eb23-4315-a26b-1f11aee91bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FUNCTION">
+      <UniqueIdentifier>{9876dffb-e096-4949-a88c-e45fbb253e07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ASIO">
+      <UniqueIdentifier>{0555e186-7939-4012-817a-8978310c2f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ASIO">
+      <UniqueIdentifier>{a07099ef-7a2c-48f1-a2fe-875cfacda5ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="VAD.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcBuffers.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sigproc.cpp">
+      <Filter>소스 파일\FUNCTION</Filter>
+    </ClCompile>
+    <ClCompile Include="RTIVA.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>소스 파일\FUNCTION</Filter>
+    </ClCompile>
+    <ClCompile Include="stft.cpp">
+      <Filter>소스 파일\FUNCTION</Filter>
+    </ClCompile>
+    <ClCompile Include="SNMF.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="include\asio.cpp">
+      <Filter>소스 파일\ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="include\asiodrivers.cpp">
+      <Filter>소스 파일\ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="include\asiolist.cpp">
+      <Filter>소스 파일\ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="include\iasiothiscallresolver.cpp">
+      <Filter>소스 파일\ASIO</Filter>
+    </ClCompile>
+    <ClCompile Include="RtAudio.cpp">
+      <Filter>소스 파일\ASIO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VAD.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>헤더 파일\FUNCTION</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcBuffers.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RTIVA.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sigproc.h">
+      <Filter>헤더 파일\FUNCTION</Filter>
+    </ClInclude>
+    <ClInclude Include="SNMF.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asio.h">
+      <Filter>헤더 파일\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asiodrivers.h">
+      <Filter>헤더 파일\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asiodrvr.h">
+      <Filter>헤더 파일\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asiolist.h">
+      <Filter>헤더 파일\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\asiosys.h">
+      <Filter>헤더 파일\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ginclude.h">
+      <Filter>헤더 파일\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\iasiodrv.h">
+      <Filter>헤더 파일\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\iasiothiscallresolver.h">
+      <Filter>헤더 파일\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="RtAudio.h">
+      <Filter>헤더 파일\ASIO</Filter>
+    </ClInclude>
+    <ClInclude Include="asiolib.h">
+      <Filter>헤더 파일\ASIO</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

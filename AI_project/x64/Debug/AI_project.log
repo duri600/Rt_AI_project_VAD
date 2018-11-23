@@ -1,0 +1,9 @@
+﻿  main.cpp
+c1xx : warning C4005: '_OPENMP': 매크로 재정의
+  c1xx: note: 명령줄 인수: '_OPENMP'의 이전 정의를 참조하십시오.
+f:\ai_project_v10_fin\ai_project\include\armadillo(94): fatal error C1083: 포함 파일을 열 수 없습니다. './arma_forward.hpp': No such file or directory
+  SNMF.cpp
+c1xx : warning C4005: '_OPENMP': 매크로 재정의
+  c1xx: note: 명령줄 인수: '_OPENMP'의 이전 정의를 참조하십시오.
+f:\ai_project_v10_fin\ai_project\include\armadillo(94): fatal error C1083: 포함 파일을 열 수 없습니다. './arma_forward.hpp': No such file or directory
+  코드를 생성하고 있습니다...
